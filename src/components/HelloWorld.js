@@ -1,4 +1,4 @@
-export class Task01 {
+export class HelloWorld {
     
     constructor(parent) {
         this.parent = parent;
