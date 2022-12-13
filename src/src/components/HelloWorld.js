@@ -6,7 +6,7 @@ export class HelloWorld {
 
     render() {
         const element = document.createElement('h1');
-        element.textContent = 'Hello world';
+        element.textContent = 'Hello world 1';
         this.parent.appendChild(element);
     }
 }
