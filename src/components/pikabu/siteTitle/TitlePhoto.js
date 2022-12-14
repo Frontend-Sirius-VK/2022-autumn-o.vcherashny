@@ -1,9 +1,7 @@
 import {Photo} from '../photo/photo.js';
 
 export class TitlePhoto {
-    constructor() {
-        
-    }
+    constructor() {}
 
     render(container) {
         const photo = new Photo(container);

@@ -1,0 +1,21 @@
+@import './src/components/pikabu//siteTitle/TitlePikabu.css';
+
+:root {
+    --color-pikabu:
+}
+
+.root {
+    display: flex;
+}
+
+.containerTitle {
+    display: flex;
+}
+
+.containerTitleMain {
+    display: flex;
+}
+
+.containerButton_1_block_1 {
+    display: flex;
+}
