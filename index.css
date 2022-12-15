@@ -8,14 +8,27 @@
     display: flex;
 }
 
-.containerTitle {
-    display: flex;
-}
-
 .containerTitleMain {
     display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+    
+
+
+    width: 100%;
+    position: relative;
+    min-width: 288px;
+    box-shadow: 0 2px 0 0 rgb(0 16 61 / 4%);
+    border-color: rgba(0, 16, 61, 0.12);
+    border-style: solid;
+    border-width: 2px;
+    /* border-radius: 12px;  */
+    background-color: #FFFFFF;
+    /* padding: 20px; */
 }
 
-.containerButton_1_block_1 {
-    display: flex;
+* {
+    margin: 0;
 }
+

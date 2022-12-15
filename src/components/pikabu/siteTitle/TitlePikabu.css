@@ -1,3 +1,70 @@
-.containerButton_1_block_1 {
+.containerButtonsBlock_1 {
     display: flex;
+}
+
+.containerButtonsBlock_2 {
+    display: flex;
+}
+
+.containerComboWaysToEnterTheAccoun_block_2 {
+    display: flex;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 2px 0 0 rgb(0 16 61 / 4%);
+    border-color: rgba(0, 16, 61, 0.12);
+    border-style: solid;
+    border-width: 2px;
+    background-color: #FFFFFF;
+}
+
+.containerButton_1_block_1 {
+    padding: 5px;
+}
+
+.containerButton_2_block_1 {
+    padding: 5px;
+}
+
+.containerButton_3_block_1 {
+    padding: 5px;
+}
+
+.containerButton_4_block_1 {
+    padding: 5px;
+}
+
+.containerButton_5_block_1 {
+    padding: 5px;
+}
+
+.containerButton_6_block_1 {
+    padding: 5px;
+}
+
+.containerButton_7_block_1 {
+    padding: 5px;
+}
+
+.containerButton_1_block_2 {
+    padding: 5px;
+}
+
+.containerButton_2_block_2 {
+    padding: 5px;
+}
+
+.containerButton_3_block_2 {
+    padding: 5px;
+}
+
+.containerEnter_VK_block_2 {
+    padding: 5px;
+}
+
+.containerEnter_Google_block_2 {
+    padding: 5px;
+}
+
+.containerEnter_block_2 {
+    padding: 5px;
 }

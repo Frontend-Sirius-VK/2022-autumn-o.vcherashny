@@ -18,12 +18,13 @@ export class MainView {
 
         const containerContentMain = document.createElement('div');
         containerContentMain.classList.add('containerContentMain');
-        this.content = new Content();
+        this.content = new Content(containerContentMain);
 
         container.append(containerTitleMain, containerContentMain);
 
         root.append(container);
         
         this.titlePikabu.render(containerTitleMain);
+        this.content.render(containerContentMain);
     }
 }

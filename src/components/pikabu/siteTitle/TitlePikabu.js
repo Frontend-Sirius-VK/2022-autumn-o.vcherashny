@@ -7,12 +7,12 @@ export class TitlePikabu {
         this.containerTitleMain = containerTitleMain;
         this.titlePhoto = null;
         this.titleButtonBlock_1 = null;
-        // this.titleButtonBlock_2 = null;
+        this.titleButtonBlock_2 = null;
     }
 
     render() {
         const containerTitlePhoto = document.createElement('div');
-        containerTitlePhoto.classList.add('containerTitlePhoto');        
+        containerTitlePhoto.classList.add('containerTitlePhoto');
         this.titlePhoto = new TitlePhoto();
         this.titlePhoto.render(containerTitlePhoto);
 
@@ -21,6 +21,11 @@ export class TitlePikabu {
         this.titleButtonBlock_1 = new TitleButtonBlock_1(containerButtonsBlock_1);
         this.titleButtonBlock_1.render(containerButtonsBlock_1);
 
-        this.containerTitleMain.append(containerTitlePhoto, containerButtonsBlock_1);
+        const containerButtonsBlock_2 = document.createElement('div');
+        containerButtonsBlock_2.classList.add('containerButtonsBlock_2');
+        this.titleButtonBlock_2 = new TitleButtonBlock_2(containerButtonsBlock_2);
+        this.titleButtonBlock_2.render(containerButtonsBlock_2);
+
+        this.containerTitleMain.append(containerTitlePhoto, containerButtonsBlock_1, containerButtonsBlock_2);
     }
 }
