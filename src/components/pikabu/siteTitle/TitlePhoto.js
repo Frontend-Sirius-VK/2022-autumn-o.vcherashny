@@ -1,10 +1,12 @@
 import {Photo} from '../photo/photo.js';
 
 export class TitlePhoto {
-    constructor() {}
+    constructor(containerTitlePhoto) {
+        this.containerTitlePhoto = containerTitlePhoto
+    }
 
-    render(container) {
-        const photo = new Photo(container);
+    render() {
+        const photo = new Photo(this.containerTitlePhoto);
         photo.render('Фото сайта', './pikabu_photo_1.png');
     }
 }

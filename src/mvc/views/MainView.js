@@ -15,16 +15,14 @@ export class MainView {
         const containerTitleMain = document.createElement('div');
         containerTitleMain.classList.add('containerTitleMain');
         this.titlePikabu = new TitlePikabu(containerTitleMain);
+        this.titlePikabu.render();
 
         const containerContentMain = document.createElement('div');
         containerContentMain.classList.add('containerContentMain');
         this.content = new Content(containerContentMain);
+        this.content.render();
 
         container.append(containerTitleMain, containerContentMain);
-
         root.append(container);
-        
-        this.titlePikabu.render(containerTitleMain);
-        this.content.render(containerContentMain);
     }
 }

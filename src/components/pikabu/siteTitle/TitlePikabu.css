@@ -18,6 +18,7 @@
 }
 
 .containerButton_1_block_1 {
+    display: flex;
     padding: 5px;
 }
 

@@ -1,7 +1,12 @@
 @import './src/components/pikabu//siteTitle/TitlePikabu.css';
+@import './src/components/pikabu/content/Content.css';
 
 :root {
-    --color-pikabu:
+    --color-pikabu: rgb(245, 245, 245);
+}
+
+body {
+    background: var(--color-pikabu);
 }
 
 .root {

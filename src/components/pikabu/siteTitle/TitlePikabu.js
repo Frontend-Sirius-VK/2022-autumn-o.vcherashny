@@ -13,8 +13,8 @@ export class TitlePikabu {
     render() {
         const containerTitlePhoto = document.createElement('div');
         containerTitlePhoto.classList.add('containerTitlePhoto');
-        this.titlePhoto = new TitlePhoto();
-        this.titlePhoto.render(containerTitlePhoto);
+        this.titlePhoto = new TitlePhoto(containerTitlePhoto);
+        this.titlePhoto.render();
 
         const containerButtonsBlock_1 = document.createElement('div');
         containerButtonsBlock_1.classList.add('containerButtonsBlock_1');

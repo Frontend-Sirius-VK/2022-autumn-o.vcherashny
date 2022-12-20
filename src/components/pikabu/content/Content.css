@@ -1,0 +1,20 @@
+.containerContentMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-pikabu);
+}
+
+.containerContentPost {
+    justify-content: center;
+    align-items: center;
+
+
+    font-size: 18px;
+
+    
+}
+
+.containerPost_1 {
+    padding-bottom: 30px;
+}

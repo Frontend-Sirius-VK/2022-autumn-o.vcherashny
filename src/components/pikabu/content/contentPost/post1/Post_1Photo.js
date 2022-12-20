@@ -1,6 +1,6 @@
 import {Photo} from '../../../photo/photo.js';
 
-export class PostPhoto {
+export class Post_1Photo {
     constructor() {}
 
     render(container) {
