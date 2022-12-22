@@ -13,5 +13,13 @@
   },
   "devDependencies": {},
   "keywords": [],
-  "description": ""
+  "description": "## Заканчиваю делать дз2 на дпнный момент осталось доделать подключение к бд и часть внешнего вида (для поста)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frontend-Sirius-VK/2022-autumn-o.vcherashny.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Frontend-Sirius-VK/2022-autumn-o.vcherashny/issues"
+  },
+  "homepage": "https://github.com/Frontend-Sirius-VK/2022-autumn-o.vcherashny#readme"
 }

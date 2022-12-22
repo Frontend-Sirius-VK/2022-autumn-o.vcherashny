@@ -1,31 +1,35 @@
 import {TitlePhoto} from './TitlePhoto.js';
-import {TitleButtonBlock_1} from './TitleButtonBlock_1.js';
-import {TitleButtonBlock_2} from './TitleButtonBlock_2.js';
+import {HeaderMenu} from './HeaderMenu.js';
+import {RegistrationMenu} from './RegistrationMenu.js';
 
 export class TitlePikabu {
     constructor(containerTitleMain) {
         this.containerTitleMain = containerTitleMain;
         this.titlePhoto = null;
-        this.titleButtonBlock_1 = null;
-        this.titleButtonBlock_2 = null;
+        this.headerMenu = null;
+        this.registrationMenu = null;
     }
 
     render() {
+        // Логотип сайта
         const containerTitlePhoto = document.createElement('div');
         containerTitlePhoto.classList.add('containerTitlePhoto');
         this.titlePhoto = new TitlePhoto(containerTitlePhoto);
         this.titlePhoto.render();
 
-        const containerButtonsBlock_1 = document.createElement('div');
-        containerButtonsBlock_1.classList.add('containerButtonsBlock_1');
-        this.titleButtonBlock_1 = new TitleButtonBlock_1(containerButtonsBlock_1);
-        this.titleButtonBlock_1.render(containerButtonsBlock_1);
+        // Меню заголовка
+        const containerHeaderMenu = document.createElement('div');
+        containerHeaderMenu.classList.add('containerHeaderMenu');
+        this.headerMenu = new HeaderMenu(containerHeaderMenu);
+        this.headerMenu.render();
 
-        const containerButtonsBlock_2 = document.createElement('div');
-        containerButtonsBlock_2.classList.add('containerButtonsBlock_2');
-        this.titleButtonBlock_2 = new TitleButtonBlock_2(containerButtonsBlock_2);
-        this.titleButtonBlock_2.render(containerButtonsBlock_2);
+        // Меню регистрации
+        const containerRegistrationMenu = document.createElement('div');
+        containerRegistrationMenu.classList.add('containerRegistrationMenu');
+        this.registrationMenu = new RegistrationMenu(containerRegistrationMenu);
+        this.registrationMenu.render();
 
-        this.containerTitleMain.append(containerTitlePhoto, containerButtonsBlock_1, containerButtonsBlock_2);
+
+        this.containerTitleMain.append(containerTitlePhoto, containerHeaderMenu, containerRegistrationMenu);
     }
 }
