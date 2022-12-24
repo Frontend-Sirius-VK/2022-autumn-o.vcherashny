@@ -1,0 +1,14 @@
+@import './contentPost/post1/post1.css';
+
+.containerContentMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-pikabu);
+}
+
+.containerContentPost {
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}

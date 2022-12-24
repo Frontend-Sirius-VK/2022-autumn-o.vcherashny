@@ -1,0 +1,21 @@
+@import './src/components/pikabu//siteTitle/TitlePikabu.css';
+@import './src/components/pikabu/content/Content.css';
+
+:root {
+    --color-pikabu: rgb(245, 245, 245);
+}
+
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+    background: var(--color-pikabu);
+}
+
+.root {
+    display: flex;
+    
+}
+
+* {
+    margin: 0;
+}
+

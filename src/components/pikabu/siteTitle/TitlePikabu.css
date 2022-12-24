@@ -1,0 +1,191 @@
+.containerTitleMain {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    min-width: 288px;
+    box-shadow: 0 2px 0 0 rgb(0 16 61 / 4%);
+    border-color: rgba(0, 16, 61, 0.12);
+    border-style: solid;
+    border-width: 2px;
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.containerHeaderMenu {
+    height: 50px;
+    margin-right: 26%;
+}
+
+.headerMenuParagraph1 {
+    text-decoration: none;
+    color: #000;
+}
+
+.headerMenuParagraph1:hover{
+    color: #83be54;
+}
+
+.headerMenuParagraph2 {
+    text-decoration: none;
+    color: #000;
+}
+
+.headerMenuParagraph2:hover {
+    color: #83be54;
+}
+
+.headerMenuParagraph3 {
+    text-decoration: none;
+    color: #000;
+}
+
+.headerMenuParagraph3:hover {
+    color: #83be54;
+}
+
+.headerMenuParagraph4 {
+    text-decoration: none;
+    color: #000;
+}
+
+.headerMenuParagraph4:hover {
+    color: #83be54;
+}
+
+.headerMenuParagraph5 {
+    text-decoration: none;
+    color: #000;
+}
+
+.headerMenuParagraph5:hover {
+    color: #83be54;
+}
+
+.headerMenuParagraph6 {
+    text-decoration: none;
+    color: #000;
+}
+
+.headerMenuParagraph6:hover {
+    color: #83be54;
+}
+
+.headerMenuParagraph7 {
+    text-decoration: none;
+    color: #000;
+}
+
+.headerMenuParagraph7:hover {
+    color: #83be54;
+}
+
+.containerHeaderMenu {
+    display: flex;
+}
+
+.containerHeaderMenuParagraph1 {
+    height: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 15px;
+}
+
+.containerHeaderMenuParagraph1:hover {
+    color: #83be54;
+    background-color: #84be5428;
+}
+
+.containerHeaderMenuParagraph2 {
+    height: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 15px;
+}
+
+.containerHeaderMenuParagraph2:hover {
+    color: #83be54;
+    background-color: #84be5428;
+}
+
+.containerHeaderMenuParagraph3 {
+    height: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 15px;
+}
+
+.containerHeaderMenuParagraph3:hover {
+    color: #83be54;
+    background-color: #84be5428;
+}
+
+.containerHeaderMenuParagraph4 {
+    height: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 15px;
+}
+
+.containerHeaderMenuParagraph4:hover {
+    color: #83be54;
+    background-color: #84be5428;
+}
+
+.containerHeaderMenuParagraph5 {
+    height: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 15px;
+}
+
+.containerHeaderMenuParagraph5:hover {
+    color: #83be54;
+    background-color: #84be5428;
+}
+
+.containerHeaderMenuParagraph6 {
+    height: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 15px;
+}
+
+.containerHeaderMenuParagraph6:hover {
+    color: #83be54;
+    background-color: #84be5428;
+}
+
+.containerHeaderMenuParagraph7 {
+    height: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 15px;
+}
+
+.containerHeaderMenuParagraph7:hover {
+    color: #83be54;
+    background-color: #84be5428;
+}

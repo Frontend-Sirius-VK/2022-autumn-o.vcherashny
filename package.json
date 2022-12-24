@@ -1,0 +1,25 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": "## Заканчиваю делать дз2 на дпнный момент осталось доделать подключение к бд и часть внешнего вида (для поста)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frontend-Sirius-VK/2022-autumn-o.vcherashny.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Frontend-Sirius-VK/2022-autumn-o.vcherashny/issues"
+  },
+  "homepage": "https://github.com/Frontend-Sirius-VK/2022-autumn-o.vcherashny#readme"
+}
