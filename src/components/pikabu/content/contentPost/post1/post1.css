@@ -4,88 +4,8 @@
     margin-bottom: 30px;
 }
 
-.containerPostButtonsBlock_1 {
-    display: flex;
-    padding: 5px;
-    border: 2px;
-    border-color: #000000;
-}
 
 .containerPost_1Photo {
     padding: 5px 0px;
 }
 
-.containerPostListTags {
-    display: flex;
-    padding: 5px;
-}
-
-.post1_tag1 {
-    text-decoration: none;
-    color: #8f8f8f;
-    padding-right: 10px;
-}
-
-.post1_tag1:hover {
-    color: #3d3d3d;
-}
-
-.post1_tag2 {
-    text-decoration: none;
-    color: #8f8f8f;
-    padding-right: 10px;
-}
-
-.post1_tag2:hover {
-    color: #3d3d3d;
-}
-
-.post1_tag3 {
-    text-decoration: none;
-    color: #8f8f8f;
-    padding-right: 10px;
-}
-
-.post1_tag3:hover {
-    color: #3d3d3d;
-}
-
-.post1_tag4 {
-    text-decoration: none;
-    color: #8f8f8f;
-    padding-right: 10px;
-}
-
-.post1_tag4:hover {
-    color: #3d3d3d;
-}
-
-.post1_tag5 {
-    text-decoration: none;
-    color: #8f8f8f;
-    padding-right: 10px;
-}
-
-.post1_tag5:hover {
-    color: #3d3d3d;
-}
-
-.containerPost1_Button_1_block_1 {
-    padding-right: 10px;
-}
-
-.containerPost1_Button_2_block_1 {
-    padding-right: 10px;
-}
-
-.containerPost1_Button_3_block_1 {
-    padding-right: 10px;
-}
-
-.containerPost1_Button_4_block_1 {
-    padding-right: 10px;
-}
-
-.containerPost1_Button_5_block_1 {
-    padding-right: 10px;
-}

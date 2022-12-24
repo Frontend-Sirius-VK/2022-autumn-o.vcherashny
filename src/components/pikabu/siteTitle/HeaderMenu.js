@@ -25,7 +25,7 @@ export class HeaderMenu {
         this.headerMenuParagraph2 = document.createElement('a');
         this.headerMenuParagraph2.classList.add('headerMenuParagraph2');
         this.headerMenuParagraph2.textContent = 'Лучшее';
-        this.headerMenuParagraph2.href = 'https://pikabu.ru/';
+        this.headerMenuParagraph2.href = 'https://pikabu.ru/best';
 
     // Свежее
         const containerHeaderMenuParagraph3 = document.createElement('div');
@@ -33,7 +33,7 @@ export class HeaderMenu {
         this.headerMenuParagraph3 = document.createElement('a');
         this.headerMenuParagraph3.classList.add('headerMenuParagraph3');
         this.headerMenuParagraph3.textContent = 'Свежее';
-        this.headerMenuParagraph3.href = 'https://pikabu.ru/';
+        this.headerMenuParagraph3.href = 'https://pikabu.ru/new';
 
     // Подписки
         const containerHeaderMenuParagraph4 = document.createElement('div');
@@ -41,7 +41,7 @@ export class HeaderMenu {
         this.headerMenuParagraph4 = document.createElement('a');
         this.headerMenuParagraph4.classList.add('headerMenuParagraph4');
         this.headerMenuParagraph4.textContent = 'Подписки';
-        this.headerMenuParagraph4.href = 'https://pikabu.ru/';
+        this.headerMenuParagraph4.href = 'https://pikabu.ru/subs';
 
     // Сообщества
         const containerHeaderMenuParagraph5 = document.createElement('div');
@@ -49,7 +49,7 @@ export class HeaderMenu {
         this.headerMenuParagraph5 = document.createElement('a');
         this.headerMenuParagraph5.classList.add('headerMenuParagraph5');
         this.headerMenuParagraph5.textContent = 'Сообщества';
-        this.headerMenuParagraph5.href = 'https://pikabu.ru/';
+        this.headerMenuParagraph5.href = 'https://pikabu.ru/communities';
 
     // Блоги
         const containerHeaderMenuParagraph6 = document.createElement('div');
@@ -57,7 +57,7 @@ export class HeaderMenu {
         this.headerMenuParagraph6 = document.createElement('a');
         this.headerMenuParagraph6.classList.add('headerMenuParagraph6');
         this.headerMenuParagraph6.textContent = 'Блоги';
-        this.headerMenuParagraph6.href = 'https://pikabu.ru/';
+        this.headerMenuParagraph6.href = 'https://pikabu.ru/companies';
 
     // Курсы
         const containerHeaderMenuParagraph7 = document.createElement('div');
@@ -65,7 +65,7 @@ export class HeaderMenu {
         this.headerMenuParagraph7 = document.createElement('a');
         this.headerMenuParagraph7.classList.add('headerMenuParagraph7');
         this.headerMenuParagraph7.textContent = 'Курсы';
-        this.headerMenuParagraph7.href = 'https://pikabu.ru/';
+        this.headerMenuParagraph7.href = 'https://study.pikabu.ru/?utm_source=topcourses';
 
     // Размещаем элементы в менюшке
         containerHeaderMenuParagraph1.append(this.headerMenuParagraph1);

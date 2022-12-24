@@ -4,7 +4,6 @@ export class ContentPost {
     constructor(containerContentPost) {
         this.containerContentPost = containerContentPost;
         this.post_1 = null;
-        this.post_2 = null;
     }
 
     render() {

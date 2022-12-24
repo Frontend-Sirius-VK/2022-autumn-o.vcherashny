@@ -12,10 +12,10 @@
     background-color: #FFFFFF;
     margin-bottom: 10px;
 }
-/* containerHeaderMenuParagraph1 */
 
 .containerHeaderMenu {
     height: 50px;
+    margin-right: 26%;
 }
 
 .headerMenuParagraph1 {
@@ -188,116 +188,4 @@
 .containerHeaderMenuParagraph7:hover {
     color: #83be54;
     background-color: #84be5428;
-}
-
-.containerRegistrationMenu {
-    display: flex;
-}
-
-.containerTitleComboWaysToEnterTheAccoun {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-color: #b8b8b8;
-}
-
-.containerTitleRegistrationMenuButton1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #83be54;
-    border-radius: 50%;
-    width: 35px; 
-    height: 35px;
-    margin: 0% 5px;
-}
-
-.containerTitleRegistrationMenuButton1:hover {
-    background-color: #71a546;
-}
-
-.containerTitleRegistrationMenuButton2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #83be54;
-    border-radius: 50%;
-    width: 35px; 
-    height: 35px;
-    margin: 0% 5px;
-}
-
-.containerTitleRegistrationMenuButton2:hover {
-    background-color: #71a546;
-}
-
-.containerTitleRegistrationMenuButton3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #83be54;
-    border-radius: 50%;
-    width: 35px; 
-    height: 35px;
-    margin: 0% 5px;
-}
-
-.containerTitleRegistrationMenuButton3:hover {
-    background-color: #71a546;
-}
-
-.containerTitleEnterVK {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #b8b8b8;
-    border-radius: 10%;
-    width: 27px; 
-    height: 27px;
-    margin: 0% 5px;
-}
-
-.containerTitleEnterVK:hover {
-    background-color: #cccccc;
-}
-
-.containerTitleEnterGoogle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #b8b8b8;
-    border-radius: 10%;
-    width: 27px; 
-    height: 27px;
-    margin: 0% 5px;
-}
-
-.containerTitleEnterGoogle:hover {
-    background-color: #cccccc;
-}
-
-.registrationMenuButton1 {
-    border-radius: 50%;
-}
-
-.registrationMenuButton2 {
-    border-radius: 50%;
-}
-
-.registrationMenuButton3 {
-    border-radius: 50%;
-}
-
-.enter {
-    background: #FFFFFF;
-    padding: 4px 6px;
-    border-color: #83be54;
-    color: #83be54;
-}
-
-.enter:hover {
-    background: #FFFFFF;
-    padding: 4px 6px;
-    border-color: #71a546;
-    color: #71a546;
 }
